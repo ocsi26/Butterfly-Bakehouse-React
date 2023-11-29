@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -16,14 +17,18 @@ const Home = (props) => {
       </Helmet>
       <div className="home-header">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
-          <span className="home-logo">BAKERY</span>
+          <Link to="/" className="home-logo">
+            BAKERY
+          </Link>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
-              <span>Home</span>
+              <Link to="/">Home</Link>
               <span className="home-nav2">About</span>
               <span className="home-nav3">Menu</span>
               <span className="home-nav4">Order Online</span>
-              <span className="home-nav5">Contact</span>
+              <Link to="/contact" className="home-nav5">
+                Contact
+              </Link>
             </nav>
             <div className="home-buttons">
               <button className="home-login button">Login</button>
@@ -108,7 +113,7 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1620146344904-097a0002d797?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTI4ODA2NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+            src="https://images.unsplash.com/photo-1606044292137-adf30029c2c5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fGNoaW1uZXklMjBjYWtlfGVufDB8fHx8MTcwMTI4ODUxOHww&amp;ixlib=rb-4.0.3&amp;w=400"
             className="home-details-image"
           />
         </div>
