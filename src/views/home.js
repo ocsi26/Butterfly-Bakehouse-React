@@ -154,162 +154,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-pricing">
-        <div className="home-pricing1">
-          <div className="home-container05">
-            <span className="home-text06 sectionTitle">
-              <span>Pricing</span>
-              <br></br>
-            </span>
-            <h2 className="home-pricing-heading heading2">
-              Choose a Plan that Suits You Best
-            </h2>
-            <span className="home-pricing-sub-heading">
-              Explore our pricing options and find the perfect fit for your
-              bakery business
-            </span>
-          </div>
-          <div className="home-container06">
-            <div className="home-pricing-card">
-              <div className="home-container07">
-                <span className="home-text09 heading3">Free</span>
-                <span className="home-free-plan-description">
-                  A short description for the free plan
-                </span>
-              </div>
-              <div className="home-container08">
-                <span className="home-text10">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-free-plan-price">0</span>
-              </div>
-              <div className="home-container09">
-                <div className="home-container10">
-                  <span className="home-text13">✔</span>
-                  <span className="home-free-plan-features">
-                    A feature of the free plan
-                  </span>
-                </div>
-                <div className="home-container11">
-                  <span className="home-text14">✔</span>
-                  <span className="home-free-plan-features1">
-                    A feature of the free plan
-                  </span>
-                </div>
-                <div className="home-container12">
-                  <span className="home-text15">✔</span>
-                  <span className="home-free-plan-features2">
-                    A feature of the free plan
-                  </span>
-                </div>
-                <div className="home-container13">
-                  <span className="home-text16">✔</span>
-                  <span className="home-free-plan-features3">
-                    A feature of the free plan
-                  </span>
-                </div>
-              </div>
-              <button className="home-button button">Continue with Free</button>
-            </div>
-            <div className="home-pricing-card1">
-              <div className="home-container14">
-                <span className="home-text17 heading3">BASIC</span>
-                <span className="home-basic-plan-description">
-                  A short description for the basic plan
-                </span>
-              </div>
-              <div className="home-container15">
-                <span className="home-text18">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-basic-plan-pricing">7</span>
-                <span className="home-text21">/ month</span>
-              </div>
-              <div className="home-container16">
-                <div className="home-container17">
-                  <span className="home-text22">✔</span>
-                  <span className="home-text23">All features of FREE plan</span>
-                </div>
-                <div className="home-container18">
-                  <span className="home-text24">✔</span>
-                  <span className="home-basic-plan-features">
-                    A feature of the basic plan
-                  </span>
-                </div>
-                <div className="home-container19">
-                  <span className="home-text25">✔</span>
-                  <span className="home-basic-plan-features1">
-                    A feature of the basic plan
-                  </span>
-                </div>
-                <div className="home-container20">
-                  <span className="home-text26">✔</span>
-                  <span className="home-basic-plan-features2">
-                    A feature of the basic plan
-                  </span>
-                </div>
-                <div className="home-container21">
-                  <span className="home-text27">✔</span>
-                  <span className="home-basic-plan-features3">
-                    A feature of the basic plan
-                  </span>
-                </div>
-              </div>
-              <button className="home-button1 button">
-                Try the Basic plan
-              </button>
-            </div>
-            <div className="home-pricing-card2">
-              <div className="home-container22">
-                <span className="home-text28 heading3">
-                  <span>PRO</span>
-                  <br></br>
-                </span>
-                <span className="home-pro-plan-description">
-                  A short description for the pro plan
-                </span>
-              </div>
-              <div className="home-container23">
-                <span className="home-text31">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-pro-plan-pricing">20</span>
-                <span className="home-text34">/ month</span>
-              </div>
-              <div className="home-container24">
-                <div className="home-container25">
-                  <span className="home-text35">✔</span>
-                  <span className="home-text36">
-                     All features of BASIC plan
-                  </span>
-                </div>
-                <div className="home-container26">
-                  <span className="home-text37">✔</span>
-                  <span className="home-pro-plan-features">
-                    A feature of the pro plan
-                  </span>
-                </div>
-                <div className="home-container27">
-                  <span className="home-text38">✔</span>
-                  <span className="home-pro-plan-features1">
-                    A feature of the pro plan
-                  </span>
-                </div>
-                <div className="home-container28">
-                  <span className="home-text39">✔</span>
-                  <span className="home-pro-plan-features2">
-                    A feature of the pro plan
-                  </span>
-                </div>
-              </div>
-              <button className="home-button2 button">Try the PRO plan</button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="home-pricing"></div>
       <div className="home-gallery">
         <div className="home-gallery1">
           <h1 className="home-gallery-heading heading2">
@@ -318,7 +163,7 @@ const Home = (props) => {
           <span className="home-gallery-sub-heading">
             Explore our mouthwatering chimney cakes
           </span>
-          <div className="home-container29">
+          <div className="home-container05">
             <GalleryCard3
               image_src="https://images.unsplash.com/photo-1607589266320-c847a1bf3baf?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGNoaW1uZXklMjBjYWtlfGVufDB8fHx8MTcwMTI4ODUxOHww&amp;ixlib=rb-4.0.3&amp;w=1500"
               rootClassName="rootClassName"
@@ -328,11 +173,11 @@ const Home = (props) => {
               rootClassName="rootClassName1"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1508330603516-ab2a4fccb3ff?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTI4ODA2Mnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="/tn5qlzb96pakfvteuubf-1500w.webp"
               rootClassName="rootClassName6"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1636314953039-10b6e5f5c295?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTI4ODA2Mnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="/img_5906-1500w.jpg"
               rootClassName="rootClassName7"
             ></GalleryCard3>
             <GalleryCard3
@@ -344,11 +189,11 @@ const Home = (props) => {
               rootClassName="rootClassName9"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1507831960578-44f1a0da176b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTI4ODA2Mnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="/chimney-cake-in-transylvania-sugaryums-1500w.jpg"
               rootClassName="rootClassName10"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1519334684146-245b81e04575?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTI4ODA2Mnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1667899827542-d5c99b1ea1f3?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGNoaW1uZXklMjBjYWtlfGVufDB8fHx8MTcwMTI4ODUxOHww&amp;ixlib=rb-4.0.3&amp;w=1500"
               rootClassName="rootClassName11"
             ></GalleryCard3>
           </div>
@@ -369,13 +214,13 @@ const Home = (props) => {
       <div className="home-faq">
         <div className="home-faq-container">
           <div className="home-faq1">
-            <div className="home-container30">
-              <span className="home-text40 sectionTitle">
+            <div className="home-container06">
+              <span className="home-text06 sectionTitle">
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="home-text43 heading2">Common questions</h2>
-              <span className="home-text44">
+              <h2 className="home-text09 heading2">Common questions</h2>
+              <span className="home-text10">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -450,7 +295,7 @@ const Home = (props) => {
                 </span>
               </span>
             </div>
-            <div className="home-container31">
+            <div className="home-container07">
               <Question
                 Answer="Chimney cakes, also known as kürtőskalács, are traditional Hungarian pastries that are made by wrapping dough around a wooden cylinder and baking it over an open fire. The result is a sweet and crispy cake with a hollow center."
                 Question="What are chimney cakes?"
@@ -477,7 +322,7 @@ const Home = (props) => {
       </div>
       <div className="home-footer">
         <footer className="home-footer1">
-          <div className="home-container32">
+          <div className="home-container08">
             <span className="home-logo2">BAKERY</span>
             <nav className="home-nav1 home-nav1">
               <span className="home-nav12">Home</span>
@@ -488,8 +333,8 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container33">
-            <span className="home-text61">
+          <div className="home-container09">
+            <span className="home-text27">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
