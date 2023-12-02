@@ -24,7 +24,8 @@ const Order = (props) => {
             <h2 className="order-details-heading heading2">Coming soon...</h2>
             <span className="order-details-sub-heading">
               <span>
-                Online order is currently not available. Please email the
+                Online order is currently not available. To place an order,
+                please email the
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -37,7 +38,13 @@ const Order = (props) => {
               >
                 orders@butterflybakehouse.com
               </a>
-              <span> to ask questions and send orders.</span>
+              <span>.</span>
+              <br></br>
+              <br></br>
+              <span>
+                Currently we do not offer delivery, customers need to pick up
+                the freshly made Chimney Cakes from our home bakery.
+              </span>
             </span>
           </div>
           <img
