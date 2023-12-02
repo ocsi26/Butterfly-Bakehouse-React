@@ -1,4 +1,4 @@
-.contact-container {
+.faq-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +7,15 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.contact-details {
+.faq-details {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq-details1 {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -18,31 +26,28 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: space-between;
 }
-.contact-container1 {
+.faq-container1 {
   flex: 1;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.contact-details-heading {
+.faq-details-heading {
   width: 80%;
   text-align: left;
   font-family: "Raleway";
   line-height: 1.6;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.contact-details-sub-heading {
+.faq-details-sub-heading {
   color: var(--dl-color-gray-800);
   font-size: 18px;
   text-align: left;
   line-height: 1.6;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.contact-link {
-  text-decoration: underline;
-}
-.contact-details-image {
+.faq-details-image {
   width: 400px;
   height: 400px;
   object-fit: cover;
@@ -50,33 +55,33 @@
   border-radius: var(--dl-radius-radius-round);
 }
 @media(max-width: 991px) {
-  .contact-details-sub-heading {
+  .faq-details-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 767px) {
-  .contact-details {
+  .faq-details1 {
     align-items: center;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: center;
   }
-  .contact-container1 {
+  .faq-container1 {
     align-items: center;
     justify-content: flex-start;
   }
-  .contact-details-heading {
+  .faq-details-heading {
     text-align: center;
   }
-  .contact-details-sub-heading {
+  .faq-details-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .contact-details-image {
+  .faq-details-image {
     margin-top: var(--dl-space-space-threeunits);
     margin-left: 0px;
   }
