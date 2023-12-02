@@ -12,8 +12,8 @@ import About from './views/about'
 import Order from './views/order'
 import Menu from './views/menu'
 import Contact from './views/contact'
-import Home from './views/home'
 import FAQ from './views/faq'
+import Home from './views/home'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -24,8 +24,8 @@ const App = () => {
         <Route component={Order} exact path="/order" />
         <Route component={Menu} exact path="/menu" />
         <Route component={Contact} exact path="/contact" />
-        <Route component={Home} exact path="/" />
         <Route component={FAQ} exact path="/faq" />
+        <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

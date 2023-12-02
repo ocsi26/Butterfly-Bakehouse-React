@@ -99,6 +99,7 @@ const Header = (props) => {
 Header.defaultProps = {
   Register: 'Register',
   Logo: 'BAKERY',
+  link_text: 'https://example.com',
   Nav1: 'Home',
   Logo1: 'BAKERY',
   Nav4: 'Order Online',
@@ -110,18 +111,18 @@ Header.defaultProps = {
   Nav3: 'Menu',
   Nav31: 'Menu',
   Login1: 'Login',
+  Nav6: 'FAQ',
   Nav51: 'Contact',
   Nav41: 'Order Online',
+  text: 'Link',
   Nav21: 'About',
   Login: 'Login',
-  text: 'Link',
-  link_text: 'https://example.com',
-  Nav6: 'FAQ',
 }
 
 Header.propTypes = {
   Register: PropTypes.string,
   Logo: PropTypes.string,
+  link_text: PropTypes.string,
   Nav1: PropTypes.string,
   Logo1: PropTypes.string,
   Nav4: PropTypes.string,
@@ -133,13 +134,12 @@ Header.propTypes = {
   Nav3: PropTypes.string,
   Nav31: PropTypes.string,
   Login1: PropTypes.string,
+  Nav6: PropTypes.string,
   Nav51: PropTypes.string,
   Nav41: PropTypes.string,
+  text: PropTypes.string,
   Nav21: PropTypes.string,
   Login: PropTypes.string,
-  text: PropTypes.string,
-  link_text: PropTypes.string,
-  Nav6: PropTypes.string,
 }
 
 export default Header

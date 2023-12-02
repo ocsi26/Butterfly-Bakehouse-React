@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import GalleryCard1 from '../components/gallery-card1'
+import Footer from '../components/footer'
 import './home.css'
 
 const Home = (props) => {
@@ -85,6 +86,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      <Footer rootClassName="footer-root-class-name5"></Footer>
     </div>
   )
 }

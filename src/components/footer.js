@@ -65,10 +65,10 @@ Footer.defaultProps = {
   rootClassName: '',
   Nav5: 'Contact',
   Logo: 'BAKERY',
+  Nav6: 'FAQ',
   Nav4: 'Order Online',
   Nav1: 'Home',
   text: '© 2023 Butterfly Bakehouse, All Rights Reserved.',
-  Nav6: 'FAQ',
 }
 
 Footer.propTypes = {
@@ -77,10 +77,10 @@ Footer.propTypes = {
   rootClassName: PropTypes.string,
   Nav5: PropTypes.string,
   Logo: PropTypes.string,
+  Nav6: PropTypes.string,
   Nav4: PropTypes.string,
   Nav1: PropTypes.string,
   text: PropTypes.string,
-  Nav6: PropTypes.string,
 }
 
 export default Footer
