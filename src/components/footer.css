@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   position: relative;
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 100%;
   align-items: center;
   padding-top: var(--dl-space-space-fourunits);
   padding-left: var(--dl-space-space-threeunits);
@@ -114,12 +114,25 @@
   width: 24px;
   height: 24px;
 }
-
-
-
-
-
-
+.footer-root-class-name {
+  max-width: 100%;
+}
+.footer-root-class-name1 {
+  max-width: 100%;
+}
+.footer-root-class-name2 {
+  max-width: 100%;
+}
+.footer-root-class-name3 {
+  max-width: 100%;
+}
+.footer-root-class-name4 {
+  width: 100%;
+  max-width: 100%;
+}
+.footer-root-class-name5 {
+  max-width: 100%;
+}
 @media(max-width: 767px) {
   .footer-footer {
     padding-left: var(--dl-space-space-twounits);
