@@ -3,7 +3,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
-import Question1 from '../components/question1'
 import Footer from '../components/footer'
 import './faq.css'
 
@@ -171,28 +170,7 @@ const FAQ = (props) => {
                 </span>
               </span>
             </div>
-            <div className="faq-container2">
-              <Question1
-                Answer='Chimney cakes, also known as "kürtőskalács", are traditional Hungarian pastries that are made by wrapping dough around a wooden cylinder and baking it over an open fire. The result is a sweet and crispy cake with a hollow center.'
-                Question="What are chimney cakes?"
-              ></Question1>
-              <Question1
-                Answer="No, currently we do not offer gluten-free chimney cakes for customers with dietary restrictions."
-                Question="Do you offer gluten-free chimney cakes?"
-              ></Question1>
-              <Question1
-                Answer="Absolutely! We offer a variety of toppings for our chimney cakes, including cinnamon sugar, chocolate drizzle, nuts, and more. You can choose your favorite combination to create a personalized treat."
-                Question="Can I customize the toppings on my chimney cake?"
-              ></Question1>
-              <Question1
-                Answer="No, currently we do not offer delivery services for our chimney cakes. You will need to pick up your freshly baked chimney cakes at our store location."
-                Question="Do you deliver chimney cakes?"
-              ></Question1>
-              <Question1
-                Answer="Definitely! Our chimney cakes are perfect for special occasions such as birthdays, weddings, and parties. We can customize the decorations and flavors to match the theme of your event."
-                Question="Are your chimney cakes suitable for special occasions?"
-              ></Question1>
-            </div>
+            <div className="faq-container2"></div>
           </div>
         </div>
       </div>

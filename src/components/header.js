@@ -57,18 +57,26 @@ const Header = (props) => {
               </div>
             </div>
             <nav className="header-links1">
-              <span className="header-nav11">{props.Nav11}</span>
-              <span className="header-nav21">{props.Nav21}</span>
-              <span className="header-nav31">{props.Nav31}</span>
-              <span className="header-nav41">{props.Nav41}</span>
-              <span className="header-nav51">{props.Nav51}</span>
+              <Link to="/" className="header-nav11">
+                {props.Nav11}
+              </Link>
+              <Link to="/about" className="header-nav21">
+                {props.Nav21}
+              </Link>
+              <Link to="/menu" className="header-nav31">
+                {props.Nav31}
+              </Link>
+              <Link to="/order" className="header-nav41">
+                {props.Nav41}
+              </Link>
+              <Link to="/contact" className="header-nav51">
+                {props.Nav51}
+              </Link>
+              <Link to="/faq" className="header-nav61">
+                {props.Nav511}
+              </Link>
             </nav>
-            <div className="header-buttons1">
-              <button className="header-login button">{props.Login1}</button>
-              <button className="header-register button">
-                {props.Register1}
-              </button>
-            </div>
+            <div className="header-buttons1"></div>
           </div>
           <div className="">
             <svg viewBox="0 0 950.8571428571428 1024" className="header-icon04">
@@ -117,6 +125,7 @@ Header.defaultProps = {
   text: 'Link',
   Nav21: 'About',
   Login: 'Login',
+  Nav511: 'FAQ',
 }
 
 Header.propTypes = {
@@ -140,6 +149,7 @@ Header.propTypes = {
   text: PropTypes.string,
   Nav21: PropTypes.string,
   Login: PropTypes.string,
+  Nav511: PropTypes.string,
 }
 
 export default Header
