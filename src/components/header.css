@@ -22,13 +22,6 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.header-logo {
-  font-size: 2em;
-  font-family: "Lato";
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 .header-desktop-menu {
   flex: 1;
   display: flex;
@@ -95,6 +88,18 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.header-navlink {
+  display: contents;
+}
+.header-logo-image {
+  top: -7px;
+  left: 30px;
+  width: var(--dl-size-size-large);
+  position: absolute;
+  align-self: flex-start;
+  object-fit: cover;
+  text-decoration: none;
+}
 .header-burger-menu {
   display: none;
 }
@@ -129,7 +134,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.header-logo1 {
+.header-logo {
   font-size: 2em;
   font-weight: bold;
 }
@@ -258,13 +263,10 @@
     padding: var(--dl-space-space-unit);
     padding-right: 16px;
   }
-  .header-logo {
-    font-size: 1.5em;
-  }
   .header-mobile-menu {
     padding: 16px;
   }
-  .header-logo1 {
+  .header-logo {
     font-size: 1.5em;
   }
   .header-icon02 {

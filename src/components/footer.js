@@ -30,10 +30,18 @@ const Footer = (props) => {
             {props.Nav6}
           </Link>
         </nav>
+        <nav className="footer-text">
+          <a
+            href="mailto:info@butterflybakehouse.com?subject="
+            className="footer-text1"
+          >
+            {props.text1}
+          </a>
+        </nav>
       </div>
       <div className="footer-separator"></div>
       <div className="footer-container1">
-        <span className="footer-text">{props.text}</span>
+        <span className="footer-text2">{props.text}</span>
         <div className="footer-icon-group">
           <svg viewBox="0 0 950.8571428571428 1024" className="footer-icon">
             <path
@@ -64,11 +72,18 @@ Footer.defaultProps = {
   Nav3: 'Menu',
   rootClassName: '',
   Nav5: 'Contact',
-  Logo: 'BAKERY',
+  Logo: 'Butterfly Bakehouse',
   Nav6: 'FAQ',
   Nav4: 'Order Online',
   Nav1: 'Home',
-  text: '© 2023 Butterfly Bakehouse, All Rights Reserved.',
+  text: 'Copyright © 2023 Butterfly Bakehouse, All Rights Reserved.',
+  Nav11: 'Home',
+  Nav21: 'About',
+  Nav31: 'Menu',
+  Nav41: 'Order Online',
+  Nav51: 'Contact',
+  Nav61: 'FAQ',
+  text1: 'info@butterflybakehouse.com',
 }
 
 Footer.propTypes = {
@@ -81,6 +96,13 @@ Footer.propTypes = {
   Nav4: PropTypes.string,
   Nav1: PropTypes.string,
   text: PropTypes.string,
+  Nav11: PropTypes.string,
+  Nav21: PropTypes.string,
+  Nav31: PropTypes.string,
+  Nav41: PropTypes.string,
+  Nav51: PropTypes.string,
+  Nav61: PropTypes.string,
+  text1: PropTypes.string,
 }
 
 export default Footer

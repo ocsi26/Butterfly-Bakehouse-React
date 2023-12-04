@@ -9,9 +9,6 @@ const Header = (props) => {
   return (
     <div className={`header-header ${props.rootClassName} `}>
       <header data-thq="thq-navbar" className="header-navbar-interactive">
-        <Link to="/" className="header-logo">
-          {props.Logo}
-        </Link>
         <div data-thq="thq-navbar-nav" className="header-desktop-menu">
           <nav className="header-links">
             <Link to="/" className="header-nav1">
@@ -35,6 +32,13 @@ const Header = (props) => {
           </nav>
           <div className="header-buttons"></div>
         </div>
+        <Link to="/" className="header-navlink">
+          <img
+            src={props.image_src}
+            alt={props.image_alt}
+            className="header-logo-image"
+          />
+        </Link>
         <div data-thq="thq-burger-menu" className="header-burger-menu">
           <svg viewBox="0 0 1024 1024" className="header-icon">
             <path
@@ -46,7 +50,7 @@ const Header = (props) => {
         <div data-thq="thq-mobile-menu" className="header-mobile-menu">
           <div className="header-nav">
             <div className="header-top">
-              <span className="header-logo1">{props.Logo1}</span>
+              <span className="header-logo">{props.Logo1}</span>
               <div data-thq="thq-close-menu" className="header-close-menu">
                 <svg viewBox="0 0 1024 1024" className="header-icon02">
                   <path
@@ -110,6 +114,7 @@ Header.defaultProps = {
   link_text: 'https://example.com',
   Nav1: 'Home',
   Logo1: 'BAKERY',
+  Nav511: 'FAQ',
   Nav4: 'Order Online',
   Nav5: 'Contact',
   Nav11: 'Home',
@@ -125,7 +130,8 @@ Header.defaultProps = {
   text: 'Link',
   Nav21: 'About',
   Login: 'Login',
-  Nav511: 'FAQ',
+  image_src: '/butterfly_round_01_transparent-200h.png',
+  image_alt: 'image',
 }
 
 Header.propTypes = {
@@ -134,6 +140,7 @@ Header.propTypes = {
   link_text: PropTypes.string,
   Nav1: PropTypes.string,
   Logo1: PropTypes.string,
+  Nav511: PropTypes.string,
   Nav4: PropTypes.string,
   Nav5: PropTypes.string,
   Nav11: PropTypes.string,
@@ -149,7 +156,8 @@ Header.propTypes = {
   text: PropTypes.string,
   Nav21: PropTypes.string,
   Login: PropTypes.string,
-  Nav511: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default Header
