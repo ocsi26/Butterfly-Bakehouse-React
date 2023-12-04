@@ -13,36 +13,28 @@ const Contact = (props) => {
         <title>Contact - Butterfly Bakehouse</title>
         <meta property="og:title" content="Contact - Butterfly Bakehouse" />
       </Helmet>
-      <Header rootClassName="header-root-class-name4"></Header>
+      <Header rootClassName="header-root-class-name6"></Header>
       <div className="contact-details">
-        <div className="contact-container1">
-          <h2 className="contact-details-heading heading2">Contact</h2>
-          <span className="contact-details-sub-heading">
-            <span>
-              Please email
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+        <div className="contact-details1">
+          <div className="contact-container1">
+            <span className="contact-text sectionTitle">
+              <span>Contact</span>
+              <br></br>
             </span>
-            <a
-              href="mailto:info@butterflybakehouse.com?subject=Info"
-              className="contact-link"
-            >
-              info@butterflybakehouse.com
-            </a>
-            <span> if you have any questions</span>
-            <span>.</span>
-          </span>
+            <h2 className="contact-details-heading heading2">Coming soon...</h2>
+            <span className="contact-details-sub-heading">
+              Please email info@butterflybakehouse.com if you have any
+              questions.
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="https://images.unsplash.com/photo-1606044292137-adf30029c2c5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fGNoaW1uZXklMjBjYWtlfGVufDB8fHx8MTcwMTI4ODUxOHww&amp;ixlib=rb-4.0.3&amp;w=400"
+            className="contact-details-image"
+          />
         </div>
-        <img
-          alt="image"
-          src="/chimney-cake-in-transylvania-sugaryums-400h.jpg"
-          className="contact-details-image"
-        />
       </div>
-      <Footer rootClassName="footer-root-class-name4"></Footer>
+      <Footer rootClassName="footer-root-class-name6"></Footer>
     </div>
   )
 }

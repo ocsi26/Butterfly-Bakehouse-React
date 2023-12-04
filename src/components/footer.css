@@ -144,6 +144,9 @@
 .footer-root-class-name5 {
   max-width: 100%;
 }
+.footer-root-class-name6 {
+  max-width: 100%;
+}
 @media(max-width: 767px) {
   .footer-footer {
     padding-left: var(--dl-space-space-twounits);

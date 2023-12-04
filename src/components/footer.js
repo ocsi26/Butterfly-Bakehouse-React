@@ -32,7 +32,7 @@ const Footer = (props) => {
         </nav>
         <nav className="footer-text">
           <a
-            href="mailto:info@butterflybakehouse.com?subject="
+            href="mailto:info@butterflybakehouse.com?subject=Info"
             className="footer-text1"
           >
             {props.text1}
@@ -68,41 +68,41 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
+  Nav51: 'Contact',
   Nav2: 'About',
+  Nav41: 'Order Online',
   Nav3: 'Menu',
   rootClassName: '',
+  Nav31: 'Menu',
   Nav5: 'Contact',
   Logo: 'Butterfly Bakehouse',
+  Nav11: 'Home',
+  text1: 'info@butterflybakehouse.com',
+  Nav61: 'FAQ',
   Nav6: 'FAQ',
   Nav4: 'Order Online',
+  Nav21: 'About',
   Nav1: 'Home',
   text: 'Copyright © 2023 Butterfly Bakehouse, All Rights Reserved.',
-  Nav11: 'Home',
-  Nav21: 'About',
-  Nav31: 'Menu',
-  Nav41: 'Order Online',
-  Nav51: 'Contact',
-  Nav61: 'FAQ',
-  text1: 'info@butterflybakehouse.com',
 }
 
 Footer.propTypes = {
+  Nav51: PropTypes.string,
   Nav2: PropTypes.string,
+  Nav41: PropTypes.string,
   Nav3: PropTypes.string,
   rootClassName: PropTypes.string,
+  Nav31: PropTypes.string,
   Nav5: PropTypes.string,
   Logo: PropTypes.string,
+  Nav11: PropTypes.string,
+  text1: PropTypes.string,
+  Nav61: PropTypes.string,
   Nav6: PropTypes.string,
   Nav4: PropTypes.string,
+  Nav21: PropTypes.string,
   Nav1: PropTypes.string,
   text: PropTypes.string,
-  Nav11: PropTypes.string,
-  Nav21: PropTypes.string,
-  Nav31: PropTypes.string,
-  Nav41: PropTypes.string,
-  Nav51: PropTypes.string,
-  Nav61: PropTypes.string,
-  text1: PropTypes.string,
 }
 
 export default Footer

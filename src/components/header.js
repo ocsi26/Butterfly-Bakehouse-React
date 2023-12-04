@@ -34,8 +34,8 @@ const Header = (props) => {
         </div>
         <Link to="/" className="header-navlink">
           <img
-            src={props.image_src}
             alt={props.image_alt}
+            src={props.image_src}
             className="header-logo-image"
           />
         </Link>
@@ -124,14 +124,14 @@ Header.defaultProps = {
   Nav3: 'Menu',
   Nav31: 'Menu',
   Login1: 'Login',
+  image_src: '/butterfly_round_01_transparent-200h.png',
   Nav6: 'FAQ',
   Nav51: 'Contact',
   Nav41: 'Order Online',
   text: 'Link',
+  image_alt: 'image',
   Nav21: 'About',
   Login: 'Login',
-  image_src: '/butterfly_round_01_transparent-200h.png',
-  image_alt: 'image',
 }
 
 Header.propTypes = {
@@ -150,14 +150,14 @@ Header.propTypes = {
   Nav3: PropTypes.string,
   Nav31: PropTypes.string,
   Login1: PropTypes.string,
+  image_src: PropTypes.string,
   Nav6: PropTypes.string,
   Nav51: PropTypes.string,
   Nav41: PropTypes.string,
   text: PropTypes.string,
+  image_alt: PropTypes.string,
   Nav21: PropTypes.string,
   Login: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
 }
 
 export default Header
