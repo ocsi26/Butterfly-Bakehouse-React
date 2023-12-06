@@ -13,6 +13,8 @@
   height: auto;
   display: flex;
   align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
   justify-content: center;
 }
 .contact-details1 {
