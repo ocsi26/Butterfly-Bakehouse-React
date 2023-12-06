@@ -17,7 +17,8 @@ const About = (props) => {
       <div className="about-details">
         <div className="about-details1">
           <div className="about-container1">
-            <h2 className="about-details-heading heading2">About</h2>
+            <span className="about-text sectionTitle">About</span>
+            <h2 className="about-details-heading heading2">About us</h2>
             <span className="about-details-sub-heading">
               At our bakery, we take pride in handcrafting each chimney cake
               using time-honored recipes passed down through generations. Our

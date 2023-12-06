@@ -35,6 +35,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.about-text {
+  color: var(--dl-color-primary1-blue80);
+  text-align: left;
+  font-family: "Raleway";
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
 .about-details-heading {
   width: 80%;
   text-align: left;
@@ -74,6 +80,9 @@
   .about-container1 {
     align-items: center;
     justify-content: flex-start;
+  }
+  .about-text {
+    text-align: center;
   }
   .about-details-heading {
     text-align: center;

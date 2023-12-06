@@ -66,60 +66,8 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.faq-details {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.faq-details1 {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-fourunits);
-  justify-content: space-between;
-}
-.faq-container3 {
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.faq-details-heading {
-  width: 80%;
-  text-align: left;
-  font-family: "Raleway";
-  line-height: 1.6;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.faq-details-sub-heading {
-  color: var(--dl-color-gray-800);
-  font-size: 18px;
-  text-align: left;
-  line-height: 1.6;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.faq-details-image {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-fourunits);
-  border-radius: var(--dl-radius-radius-round);
-}
 @media(max-width: 991px) {
   .faq-text04 {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .faq-details-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -140,28 +88,5 @@
   .faq-text04 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
-  }
-  .faq-details1 {
-    align-items: center;
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-    flex-direction: column;
-    justify-content: center;
-  }
-  .faq-container3 {
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .faq-details-heading {
-    text-align: center;
-  }
-  .faq-details-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .faq-details-image {
-    margin-top: var(--dl-space-space-threeunits);
-    margin-left: 0px;
   }
 }

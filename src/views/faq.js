@@ -146,22 +146,6 @@ const FAQ = (props) => {
           </div>
         </div>
       </div>
-      <div className="faq-details">
-        <div className="faq-details1">
-          <div className="faq-container3">
-            <h2 className="faq-details-heading heading2">Try it now!</h2>
-            <span className="faq-details-sub-heading">
-              If you haven&apos;t tasted this unique, sweet deliciousness, give
-              it a try and order today.
-            </span>
-          </div>
-          <img
-            alt="image"
-            src="/chimney-cake-in-transylvania-sugaryums-400h.jpg"
-            className="faq-details-image"
-          />
-        </div>
-      </div>
       <Footer rootClassName="footer-root-class-name1"></Footer>
     </div>
   )
