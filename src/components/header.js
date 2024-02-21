@@ -12,30 +12,29 @@ const Header = (props) => {
         <div data-thq="thq-navbar-nav" className="header-desktop-menu">
           <nav className="header-links">
             <Link to="/" className="header-nav1">
-              {props.Nav1}
+              {props.nav1}
             </Link>
             <Link to="/about" className="header-nav2">
-              {props.Nav2}
+              {props.nav2}
             </Link>
             <Link to="/menu" className="header-nav3">
-              {props.Nav3}
+              {props.nav3}
             </Link>
             <Link to="/order" className="header-nav4">
-              {props.Nav4}
+              {props.nav4}
             </Link>
             <Link to="/contact" className="header-nav5">
-              {props.Nav5}
+              {props.nav5}
             </Link>
             <Link to="/faq" className="header-nav6">
-              {props.Nav6}
+              {props.nav6}
             </Link>
           </nav>
-          <div className="header-buttons"></div>
         </div>
         <Link to="/" className="header-navlink">
           <img
-            alt={props.image_alt}
-            src={props.image_src}
+            alt={props.imageAlt}
+            src={props.imageSrc}
             className="header-logo-image"
           />
         </Link>
@@ -50,7 +49,7 @@ const Header = (props) => {
         <div data-thq="thq-mobile-menu" className="header-mobile-menu">
           <div className="header-nav">
             <div className="header-top">
-              <span className="header-logo">{props.Logo1}</span>
+              <span className="header-logo">{props.logo1}</span>
               <div data-thq="thq-close-menu" className="header-close-menu">
                 <svg viewBox="0 0 1024 1024" className="header-icon02">
                   <path
@@ -62,25 +61,25 @@ const Header = (props) => {
             </div>
             <nav className="header-links1">
               <Link to="/" className="header-nav11">
-                {props.Nav11}
+                {props.nav11}
               </Link>
               <Link to="/about" className="header-nav21">
-                {props.Nav21}
+                {props.nav21}
               </Link>
               <Link to="/menu" className="header-nav31">
-                {props.Nav31}
+                {props.nav31}
               </Link>
               <Link to="/order" className="header-nav41">
-                {props.Nav41}
+                {props.nav41}
               </Link>
               <Link to="/contact" className="header-nav51">
-                {props.Nav51}
+                {props.nav51}
               </Link>
               <Link to="/faq" className="header-nav61">
-                {props.Nav511}
+                {props.nav511}
               </Link>
             </nav>
-            <div className="header-buttons1"></div>
+            <div className="header-buttons"></div>
           </div>
           <div className="">
             <svg viewBox="0 0 950.8571428571428 1024" className="header-icon04">
@@ -109,55 +108,55 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
-  Register: 'Register',
-  Logo: 'BAKERY',
-  link_text: 'https://example.com',
-  Nav1: 'Home',
-  Logo1: 'BAKERY',
-  Nav511: 'FAQ',
-  Nav4: 'Order Online',
-  Nav5: 'Contact',
-  Nav11: 'Home',
-  Nav2: 'About',
-  Register1: 'Register',
+  register: 'Register',
+  logo: 'BAKERY',
+  linkText: 'https://example.com',
+  nav1: 'Home',
+  logo1: 'BAKERY',
+  nav511: 'FAQ',
+  nav4: 'Order Online',
+  nav5: 'Contact',
+  nav11: 'Home',
+  nav2: 'About',
+  register1: 'Register',
   rootClassName: '',
-  Nav3: 'Menu',
-  Nav31: 'Menu',
-  Login1: 'Login',
-  image_src: '/butterfly_round_01_transparent-200h.png',
-  Nav6: 'FAQ',
-  Nav51: 'Contact',
-  Nav41: 'Order Online',
+  nav3: 'Menu',
+  nav31: 'Menu',
+  login1: 'Login',
+  imageSrc: '/butterfly_round_01_transparent-200h.png',
+  nav6: 'FAQ',
+  nav51: 'Contact',
+  nav41: 'Order Online',
   text: 'Link',
-  image_alt: 'image',
-  Nav21: 'About',
-  Login: 'Login',
+  imageAlt: 'image',
+  nav21: 'About',
+  login: 'Login',
 }
 
 Header.propTypes = {
-  Register: PropTypes.string,
-  Logo: PropTypes.string,
-  link_text: PropTypes.string,
-  Nav1: PropTypes.string,
-  Logo1: PropTypes.string,
-  Nav511: PropTypes.string,
-  Nav4: PropTypes.string,
-  Nav5: PropTypes.string,
-  Nav11: PropTypes.string,
-  Nav2: PropTypes.string,
-  Register1: PropTypes.string,
+  register: PropTypes.string,
+  logo: PropTypes.string,
+  linkText: PropTypes.string,
+  nav1: PropTypes.string,
+  logo1: PropTypes.string,
+  nav511: PropTypes.string,
+  nav4: PropTypes.string,
+  nav5: PropTypes.string,
+  nav11: PropTypes.string,
+  nav2: PropTypes.string,
+  register1: PropTypes.string,
   rootClassName: PropTypes.string,
-  Nav3: PropTypes.string,
-  Nav31: PropTypes.string,
-  Login1: PropTypes.string,
-  image_src: PropTypes.string,
-  Nav6: PropTypes.string,
-  Nav51: PropTypes.string,
-  Nav41: PropTypes.string,
+  nav3: PropTypes.string,
+  nav31: PropTypes.string,
+  login1: PropTypes.string,
+  imageSrc: PropTypes.string,
+  nav6: PropTypes.string,
+  nav51: PropTypes.string,
+  nav41: PropTypes.string,
   text: PropTypes.string,
-  image_alt: PropTypes.string,
-  Nav21: PropTypes.string,
-  Login: PropTypes.string,
+  imageAlt: PropTypes.string,
+  nav21: PropTypes.string,
+  login: PropTypes.string,
 }
 
 export default Header

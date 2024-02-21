@@ -72,15 +72,15 @@ const Home = (props) => {
           </span>
           <div className="home-gallery2">
             <GalleryCard1
-              image_src="/tn5qlzb96pakfvteuubf-1500h.webp"
+              imageSrc="/tn5qlzb96pakfvteuubf-1500h.webp"
               rootClassName="rootClassName"
             ></GalleryCard1>
             <GalleryCard1
-              image_src="https://images.unsplash.com/photo-1593108600391-f6266b89bf5e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGt1cnRvc3xlbnwwfHx8fDE3MDE0OTY2ODd8MA&amp;ixlib=rb-4.0.3&amp;h=1500"
+              imageSrc="https://images.unsplash.com/photo-1593108600391-f6266b89bf5e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGt1cnRvc3xlbnwwfHx8fDE3MDE0OTY2ODd8MA&amp;ixlib=rb-4.0.3&amp;h=1500"
               rootClassName="rootClassName1"
             ></GalleryCard1>
             <GalleryCard1
-              image_src="/chimney-cake-in-transylvania-sugaryums-1500h.jpg"
+              imageSrc="/chimney-cake-in-transylvania-sugaryums-1500h.jpg"
               rootClassName="rootClassName2"
             ></GalleryCard1>
           </div>

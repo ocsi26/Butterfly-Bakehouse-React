@@ -9,25 +9,25 @@ const Footer = (props) => {
   return (
     <footer className={`footer-footer ${props.rootClassName} `}>
       <div className="footer-container">
-        <span className="footer-logo">{props.Logo}</span>
+        <span className="footer-logo">{props.logo}</span>
         <nav className="footer-nav">
           <Link to="/" className="footer-nav1">
-            {props.Nav1}
+            {props.nav1}
           </Link>
           <Link to="/about" className="footer-nav2">
-            {props.Nav2}
+            {props.nav2}
           </Link>
           <Link to="/menu" className="footer-nav3">
-            {props.Nav3}
+            {props.nav3}
           </Link>
           <Link to="/order" className="footer-nav4">
-            {props.Nav4}
+            {props.nav4}
           </Link>
           <Link to="/contact" className="footer-nav5">
-            {props.Nav5}
+            {props.nav5}
           </Link>
           <Link to="/faq" className="footer-nav6">
-            {props.Nav6}
+            {props.nav6}
           </Link>
         </nav>
         <nav className="footer-text">
@@ -68,40 +68,40 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  Nav51: 'Contact',
-  Nav2: 'About',
-  Nav41: 'Order Online',
-  Nav3: 'Menu',
+  nav51: 'Contact',
+  nav2: 'About',
+  nav41: 'Order Online',
+  nav3: 'Menu',
   rootClassName: '',
-  Nav31: 'Menu',
-  Nav5: 'Contact',
-  Logo: 'Butterfly Bakehouse',
-  Nav11: 'Home',
+  nav31: 'Menu',
+  nav5: 'Contact',
+  logo: 'Butterfly Bakehouse',
+  nav11: 'Home',
   text1: 'info@butterflybakehouse.com',
-  Nav61: 'FAQ',
-  Nav6: 'FAQ',
-  Nav4: 'Order Online',
-  Nav21: 'About',
-  Nav1: 'Home',
+  nav61: 'FAQ',
+  nav6: 'FAQ',
+  nav4: 'Order Online',
+  nav21: 'About',
+  nav1: 'Home',
   text: 'Copyright © 2023 Butterfly Bakehouse, All Rights Reserved.',
 }
 
 Footer.propTypes = {
-  Nav51: PropTypes.string,
-  Nav2: PropTypes.string,
-  Nav41: PropTypes.string,
-  Nav3: PropTypes.string,
+  nav51: PropTypes.string,
+  nav2: PropTypes.string,
+  nav41: PropTypes.string,
+  nav3: PropTypes.string,
   rootClassName: PropTypes.string,
-  Nav31: PropTypes.string,
-  Nav5: PropTypes.string,
-  Logo: PropTypes.string,
-  Nav11: PropTypes.string,
+  nav31: PropTypes.string,
+  nav5: PropTypes.string,
+  logo: PropTypes.string,
+  nav11: PropTypes.string,
   text1: PropTypes.string,
-  Nav61: PropTypes.string,
-  Nav6: PropTypes.string,
-  Nav4: PropTypes.string,
-  Nav21: PropTypes.string,
-  Nav1: PropTypes.string,
+  nav61: PropTypes.string,
+  nav6: PropTypes.string,
+  nav4: PropTypes.string,
+  nav21: PropTypes.string,
+  nav1: PropTypes.string,
   text: PropTypes.string,
 }
 

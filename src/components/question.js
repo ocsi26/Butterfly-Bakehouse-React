@@ -7,23 +7,23 @@ import './question.css'
 const Question = (props) => {
   return (
     <div className={`question-container ${props.rootClassName} `}>
-      <span className="question-text heading4">{props.Question}</span>
-      <span className="question-text1">{props.Answer}</span>
+      <span className="question-text heading4">{props.question}</span>
+      <span className="question-text1">{props.answer}</span>
     </div>
   )
 }
 
 Question.defaultProps = {
-  Answer:
+  answer:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus.',
   rootClassName: '',
-  Question: 'What types of cars do you sell?',
+  question: 'What types of cars do you sell?',
 }
 
 Question.propTypes = {
-  Answer: PropTypes.string,
+  answer: PropTypes.string,
   rootClassName: PropTypes.string,
-  Question: PropTypes.string,
+  question: PropTypes.string,
 }
 
 export default Question
