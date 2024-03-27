@@ -123,7 +123,7 @@ Header.defaultProps = {
   nav3: 'Menu',
   nav31: 'Menu',
   login1: 'Login',
-  imageSrc: '/butterfly_round_01_transparent-200h.png',
+  imageSrc: '/favicon-200h.png',
   nav6: 'FAQ',
   nav51: 'Contact',
   nav41: 'Order Online',
