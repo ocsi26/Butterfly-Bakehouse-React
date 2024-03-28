@@ -123,7 +123,7 @@ Header.defaultProps = {
   nav3: 'Menu',
   nav31: 'Menu',
   login1: 'Login',
-  imageSrc: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
+  imageSrc: '2de70584-fadf-402a-a8ed-7b48a6526f64',
   nav6: 'FAQ',
   nav51: 'Contact',
   nav41: 'Order Online',
