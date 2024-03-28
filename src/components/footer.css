@@ -71,6 +71,9 @@
 }
 .footer-text1 {
   color: var(--dl-color-secondary-gray500);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
   text-decoration: none;
 }
 .footer-separator {
@@ -101,6 +104,10 @@
 }
 .footer-text2 {
   color: var(--dl-color-secondary-gray500);
+  font-size: 13px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 100;
 }
 .footer-icon-group {
   display: flex;

@@ -83,7 +83,7 @@ Footer.defaultProps = {
   nav4: 'Order Online',
   nav21: 'About',
   nav1: 'Home',
-  text: 'Copyright © 2023 Butterfly Bakehouse, All Rights Reserved.',
+  text: 'Copyright © 2023 Butterfly Bakehouse, All Rights Reserved. v1.0.8',
 }
 
 Footer.propTypes = {
